@@ -1,8 +1,8 @@
 Earth Live Android
 =======
-Apk (http://fir.im/gyd4)
-(http://firicon.fir.im/010d490d02d2c8e8c8bcabe7716ac1a878dfa60c)
 A Android re-authored of [EarthLiveSharp](https://github.com/bitdust/EarthLiveSharp).
+
+Apk (http://fir.im/gyd4)
 
 Fetch photo of the earth every 10 minutes from [himawari-8](http://himawari8.nict.go.jp/) ([wiki](https://en.wikipedia.org/wiki/Himawari_8)).
 

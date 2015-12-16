@@ -1,0 +1,11 @@
+<resources>
+
+
+
+
+    <style name="setting_divider_style">
+        <item name="android:layout_height">1dip</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">#1AFFFFFF</item>
+    </style>
+</resources>

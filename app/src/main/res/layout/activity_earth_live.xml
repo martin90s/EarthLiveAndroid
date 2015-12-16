@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:materialdesign="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:gravity="left|center_vertical"
+            android:text="@string/app_name"
+            android:textColor="@color/white"
+            android:textSize="@dimen/setting_title_text_size"
+            android:textStyle="bold"
+            />
+
+        <View
+            android:id="@+id/topdivider"
+            style="@style/setting_divider_style"
+            android:layout_below="@id/title"/>
+
+        <com.gc.materialdesign.views.ScrollView
+            android:id="@+id/setting_scroll_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/topdivider"
+            android:layout_marginTop="10dp"
+            android:fadingEdge="none"
+            android:fillViewport="false"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/set_interval"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="23dp"
+                    android:paddingTop="23dp"
+                    android:text="@string/set_interval"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/setting_item_text_size"/>
+
+                <com.gc.materialdesign.views.Slider
+                    android:id="@+id/slider"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#1E88E5"
+                    materialdesign:max="600"
+                    materialdesign:min="10"
+                    materialdesign:showNumberIndicator="true"/>
+
+                <View
+                    style="@style/setting_divider_style"/>
+
+
+                <TextView
+                    android:id="@+id/set_fixtime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="23dp"
+                    android:paddingTop="23dp"
+                    android:text="@string/set_fix_time"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/setting_item_text_size"/>
+            </LinearLayout>
+
+        </com.gc.materialdesign.views.ScrollView>
+
+    </RelativeLayout>
+
+</FrameLayout>

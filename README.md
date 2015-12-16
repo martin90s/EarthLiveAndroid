@@ -8,6 +8,8 @@ Fetch photo of the earth every 10 minutes from [himawari-8](http://himawari8.nic
 
 Set your phone wallpaper when get new capture of the earth!
 
+![](https://raw.githubusercontent.com/niejunhong/EarthLiveAndroid/master/screenshots/Screenshot_2015-12-17-00-29-36.png)
+
 ## Installation
 
 You can get the apk from (http://fir.im/gyd4)

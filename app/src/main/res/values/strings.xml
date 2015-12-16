@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">earthLIveAndroid</string>
+    <string name="app_name">EarthLiveWallpaper</string>
     <string name="set_interval">Set the wallpaper switch interval</string>
     <string name="set_fix_time">Set a fixed time</string>
     <string name="current">Current Wallpaper</string>
